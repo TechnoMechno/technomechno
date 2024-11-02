@@ -1,6 +1,6 @@
 ## An Luu
  
- **I like to build games and cool softwares**
+*I like to build games and cool softwares*
 ---
 
 ### 🧰 Languages and Tools
