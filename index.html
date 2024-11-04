@@ -6,6 +6,7 @@
     <title>An's Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 
 </head>
 <body>
@@ -14,12 +15,41 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#education">Experience</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Assets/Profile_Pic.jpeg" alt="An Luu profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">An Luu</h1>
+            <p class="section__text__p2">Software Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('Assets/AnLuu_CV.pdf')"> Download CV</button>
+                <button
+                    class="btn btn-color-1"
+                    onclick="location.href='./#contact'"
+                > Contact Info</button>
+            </div>
+            <div id=""socials-container">
+                <i 
+                class="devicon-linkedin-plain icon" 
+                onclick="location.href='https://www.linkedin.com/in/anluu266/'" 
+                style="cursor: pointer; font-size: 2rem;">
+                </i>
+                <i 
+                class="devicon-github-original colored" 
+                onclick="location.href='https://github.com/TechnoMechno'" 
+                style="cursor: pointer; font-size: 2rem;">
+                </i>
+            </div>
+        </div>
+    </section>
 
 <script src="script.js"></script>
 </body>
