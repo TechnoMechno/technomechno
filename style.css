@@ -179,3 +179,49 @@ section {
 i {
     padding: 10px;
 }
+
+/* ABOUT SECTION */
+#about {
+    padding: 4vh 10rem;
+    text-align: center;
+}
+
+.about-section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: rgb(85, 85, 85);
+}
+
+.about-details {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    background-color: rgb(240, 240, 240);
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 250px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-card p {
+    font-size: 1rem;
+    color: rgb(85, 85, 85);
+}
